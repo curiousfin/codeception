@@ -1,0 +1,26 @@
+{
+    "name": "curious/codeception",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "^5.0",
+        "codeception/module-asserts": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Curious\\Codeception\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Curious\\Codeception\\Tests\\": "src/tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "curiousfin",
+            "email": "curiousfin9@gmail.com"
+        }
+    ]
+}
